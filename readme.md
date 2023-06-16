@@ -28,7 +28,7 @@ Because this apps is build with Laravel 5.6, the requirements is same with Larav
 
 Clone this repo:
 ```
-git clone https://github.com/azishapidin/dompetku.git
+git clone https://github.com/natasyaolivia/dompetku_coding.git
 ```
 
 After clone the repo, run composer install in your terminal/CMD to resolves and installs all dependencies:
@@ -55,9 +55,9 @@ Create database and set to database configuration on **.env** file:
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=homestead
-DB_USERNAME=homestead
-DB_PASSWORD=secret
+DB_DATABASE=akuntansi
+DB_USERNAME=akuntansi
+DB_PASSWORD=
 ```
 
 Hola! DompetKu is ready to use!
@@ -76,4 +76,4 @@ The DompetKu is open-sourced software licensed under the [Creative Commons Attri
 
 ## Contributor
 
-Author: [Azis Hapidin](https://azishapidin.com/) 
+Pengkodean dan Pemrograman Kelas F
