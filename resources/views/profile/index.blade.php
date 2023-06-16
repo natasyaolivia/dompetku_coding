@@ -11,10 +11,10 @@
     <div class="col-md-8">
         <div class="card">
             <div class="header">
-                <h4 class="title">{{ __('Edit Profile') }}</h4>
+                <h4 class="title">{{ __('Edit Profil') }}</h4>
             </div>
             <div class="content">
-                Update profile page.
+                Mengubah Tampilan Profil.
                     {{-- <form action="" method="post" enctype="multipart/form-data">
                     @csrf
                     <div class="row">

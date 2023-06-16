@@ -14,7 +14,7 @@
         <div class="text-center">
             <br>
             <button class="btn btn-fill btn-primary btn-sm">
-                <span class="fa fa-pencil"></span> {{ __("Update Profile") }}
+                <span class="fa fa-pencil"></span> {{ __("Update Profil") }}
             </button>
         </div>
     </div>

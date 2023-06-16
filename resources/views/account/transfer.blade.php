@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', __('Transfer Money'))
+@section('title', __('Transfer Uang'))
 
 @section('before_script')
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/air-datepicker/2.2.3/css/datepicker.min.css">
@@ -11,7 +11,7 @@
     <div class="col-md-8">
         <div class="card">
             <div class="header">
-                <h4 class="title">{{ __('Transfer Money to Another Account') }}</h4>
+                <h4 class="title">{{ __('Transfer Uang ke Akun Lain') }}</h4>
             </div>
             <div class="content">
                     <form action="{{ route('account.transfer.store') }}" method="post" enctype="multipart/form-data">

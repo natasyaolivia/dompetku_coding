@@ -31,7 +31,7 @@
 <body>
 
 <div class="wrapper">
-    <div class="sidebar" data-color="purple" data-image="{{ asset('assets/img/sidebar-5.jpg') }}">
+    <div class="sidebar" data-color="purple" data-image="{{ asset('assets/img/387064.jpg') }}">
 
     <!--
 
@@ -51,7 +51,7 @@
                 <li class="{{ \Route::current()->getName() == 'home' ? 'active' : '' }}">
                     <a href="{{ route('home') }}">
                         <i class="pe-7s-graph"></i>
-                        <p>{{ __('Summary') }}</p>
+                        <p>{{ __('Ringkasan') }}</p>
                     </a>
                 </li>
                 <li class="{{ (request()->is('account/*') || request()->is('account') || request()->is('account/*/edit')) && !request()->is('account/transfer/transaction') ? 'active' : '' }}">
@@ -63,7 +63,7 @@
                 <li class="{{ request()->is('account/transfer/transaction') ? 'active' : '' }}">
                     <a href="{{ route('account.transfer') }}">
                         <i class="pe-7s-shuffle"></i>
-                        <p>{{ __('Transfer Money') }}</p>
+                        <p>{{ __('Transfer Uang') }}</p>
                     </a>
                 </li>
                 <li class="{{ request()->is('transaction/*') || request()->is('transaction') || request()->is('transaction/*/edit') ? 'active' : '' }}">
@@ -81,7 +81,7 @@
                 <li class="{{ request()->is('profile') ? 'active' : '' }}">
                     <a href="{{ route('profile') }}">
                         <i class="pe-7s-user"></i>
-                        <p>{{ __('Profile') }}</p>
+                        <p>{{ __('Profil') }}</p>
                     </a>
                 </li>
             </ul>
@@ -155,7 +155,7 @@
                         <li>
                                 <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                         document.getElementById('logout-form').submit();">
-                                    <p>{{ __('Logout') }}</p>
+                                    <p>{{ __('Keluar') }}</p>
                                 </a>
 
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
@@ -199,7 +199,7 @@
                 </nav>
                 <p class="copyright pull-right">
                         {{ __('Copyright') }} © {{ date('Y') }}
-                        <a href="{{ url('') }}">{{ config('app.name') }}</a>. {{ __('System developed by') }} <a href="https://azishapidin.com/" target="_blank">Azis Hapidin</a> | Theme by <a href="http://www.creative-tim.com">Creative Tim</a>.
+                        <a href="{{ url('') }}">{{ config('app.name') }}</a>. {{ __('System developed by') }} <a href="https://azishapidin.com/" target="_blank">Akuntansi Undip</a> | Theme by <a href="http://www.creative-tim.com">Creative Tim</a>.
                 </p>
             </div>
         </footer>

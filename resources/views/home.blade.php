@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', __('Summary'))
+@section('title', __('Ringkasan'))
 
 @section('before_script')
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
